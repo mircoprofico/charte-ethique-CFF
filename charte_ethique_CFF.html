@@ -61,8 +61,8 @@
 
   .closing { margin-top: 9px; border-top: 2px solid #EB0000; padding-top: 8px; }
   .closing p { margin: 0; text-align: justify; }
-  .footer-meta { margin-top: 9px; font-size: 9.2pt; color: #888; border-top: 1px solid #e2e2e2; padding-top: 6px; }
-  section { page-break-inside: auto; }
+  .footer-meta { margin-top: auto; font-size: 9.2pt; color: #888; border-top: 1px solid #e2e2e2; padding-top: 6px; }
+  section { page-break-inside: auto; display: flex; flex-direction: column; min-height: 490mm; }
 </style>
 </head>
 <body>
@@ -103,14 +103,14 @@
   <ul class="values">
     <li><b>Égalité d'accès</b> La mobilité est un droit, jamais un privilège réservé aux personnes connectées.</li>
     <li><b>Autonomie</b> L'usager garde le choix de son canal d'accès et le contrôle de ses données.</li>
-    <li><b>Inclusion</b> Concevoir d'abord pour les plus vulnérables (design universel, accessibilité).</li>
+    <li><b>Inclusion</b> Concevoir pour tous dès le départ, selon les principes du design universel et de l'accessibilité.</li>
     <li><b>Confiance</b> Collecte minimale des données, refus de la surveillance des déplacements.</li>
-    <li><b>Humanité</b> La technologie augmente la personne et le personnel, elle ne les remplace pas.</li>
-    <li><b>Sobriété</b> Ne numériser que ce qui apporte une valeur réelle et durable.</li>
+    <li><b>Humanité</b> La technologie soutient les voyageurs et le personnel, elle ne les remplace pas.</li>
+    <li><b>Sobriété</b> Ne numériser que ce qui améliore concrètement et durablement le service aux voyageurs.</li>
   </ul>
 
   <!-- Engagements -->
-  <h2 class="break">Nos engagements</h2>
+  <h2>Nos engagements</h2>
   <hr class="barrule">
 
   <div class="grid">
@@ -118,7 +118,7 @@
     <div class="card">
       <div class="card-head"><span class="num">1</span><h3>Finalité et autonomie des personnes</h3></div>
       <ul>
-        <li><span class="k">Liberté avant tout.</span> Des technologies qui élargissent la liberté réelle de se déplacer, sans la conditionner à la maîtrise d'un smartphone.</li>
+        <li><span class="k">Liberté avant tout.</span> Des technologies qui élargissent la liberté de se déplacer, sans la conditionner à la maîtrise d'un smartphone.</li>
         <li><span class="k">Pluralité des canaux.</span> Pour chaque service numérique, une alternative non numérique équivalente (guichet, automate, billet papier, assistance humaine), financée durablement.</li>
         <li><span class="k">Pas de pénalité.</span> Renoncer au numérique ne coûte pas plus cher : aucun avantage tarifaire réservé au seul canal numérique.</li>
         <li><span class="k">Anonymat préservé.</span> Voyager de manière anonyme reste possible, partout et à tout moment.</li>
@@ -130,7 +130,7 @@
       <ul>
         <li><span class="k">Design universel.</span> Conception selon les normes d'accessibilité (WCAG) : lecteurs d'écran, contrastes, tailles de police, mode sombre, langage simple, multilinguisme.</li>
         <li><span class="k">Critère non négociable.</span> Accessibilité évaluée avec les personnes concernées, et non corrigée après coup (esprit de la LHand).</li>
-        <li><span class="k">Aucune mise à l'écart.</span> Prévenir exclusion, dépendance et stigmatisation : pas de lenteur humiliante ni de traitement de seconde classe.</li>
+        <li><span class="k">Aucune mise à l'écart.</span> Prévenir exclusion, dépendance et stigmatisation : aucun voyageur traité comme moins important parce qu'il n'utilise pas le numérique.</li>
         <li><span class="k">Présence humaine.</span> Un personnel d'accompagnement formé et suffisant en gare et à bord.</li>
       </ul>
     </div>
@@ -138,8 +138,8 @@
     <div class="card">
       <div class="card-head"><span class="num">3</span><h3>Protection des données et vie privée</h3></div>
       <ul>
-        <li><span class="k">Minimisation.</span> Par défaut, ne collecter que les données strictement nécessaires, pour une finalité limitée.</li>
-        <li><span class="k">Pas de revente.</span> Aucune transmission des données de déplacement à des tiers à des fins publicitaires ; hébergement conforme au droit suisse.</li>
+        <li><span class="k">Minimisation.</span> Par défaut, ne collecter que les données strictement nécessaires au bon fonctionnement du service.</li>
+        <li><span class="k">Pas de revente.</span> Aucune transmission des données de déplacement à des tiers à des fins publicitaires. Hébergement conforme au droit suisse.</li>
         <li><span class="k">Pas de traçage.</span> Refus de tout historique exhaustif et permanent des déplacements.</li>
         <li><span class="k">Clarté et sécurité.</span> Transparence sur les données collectées, sécurité des titres et des paiements.</li>
       </ul>
@@ -158,20 +158,20 @@
     <div class="card">
       <div class="card-head"><span class="num">5</span><h3>Hybridation au service de l'humain</h3></div>
       <ul>
-        <li><span class="k">Augmenter, pas remplacer.</span> Une hybridation qui renforce les capacités (planifier, anticiper un retard) et redonne de l'autonomie, notamment en situation de handicap.</li>
-        <li><span class="k">Recentrage humain.</span> Le personnel, libéré des tâches répétitives, se consacre au conseil et à la relation : une présence, pas un coût à éliminer.</li>
-        <li><span class="k">Limite du corps.</span> Refus de toute biométrie obligatoire ou reconnaissance faciale imposée, et de toute infrastructure rendant l'identification possible « par défaut ».</li>
-        <li><span class="k">Limite sociale.</span> Le numérique n'est jamais une condition d'existence sociale, ni le voyageur une source de données permanente.</li>
+        <li><span class="k">Épauler, pas remplacer.</span> Une hybridation qui renforce les capacités (planifier un trajet, anticiper un retard) et favorise l'autonomie, notamment en situation de handicap.</li>
+        <li><span class="k">Le personnel au cœur du service.</span> En allégeant les tâches répétitives, la technologie laisse au personnel plus de temps d'écoute et d'accompagnement, sans jamais viser à réduire les effectifs.</li>
+        <li><span class="k">Limite du corps.</span> Refus de toute biométrie obligatoire ou reconnaissance faciale imposée, et de toute infrastructure qui permettrait d'identifier les voyageurs à leur insu ou sans leur consentement.</li>
+        <li><span class="k">Limite sociale.</span> Accéder au train ne doit jamais dépendre de l'usage du numérique, et le voyageur n'est pas une source de données permanente.</li>
       </ul>
     </div>
 
     <div class="card">
       <div class="card-head"><span class="num">6</span><h3>Sobriété et durabilité numériques</h3></div>
       <ul>
-        <li><span class="k">Sobriété d'usage.</span> Ne numériser que ce qui apporte une valeur réelle, sans fonctionnalités superflues ni captation de l'attention.</li>
+        <li><span class="k">Sobriété d'usage.</span> Ne déployer que les fonctions utiles au voyage, sans options superflues ni captation de l'attention.</li>
         <li><span class="k">Logiciel léger.</span> Des applications compatibles avec les smartphones anciens, pour ne pas accélérer le renouvellement du matériel (principal impact du numérique).</li>
         <li><span class="k">Matériel durable.</span> Supports physiques de longue durée (SwissPass) et lutte contre l'obsolescence.</li>
-        <li><span class="k">Énergie et mesure.</span> Infrastructure alimentée en électricité renouvelable ; empreinte numérique mesurée et publiée.</li>
+        <li><span class="k">Énergie et mesure.</span> Infrastructure alimentée en électricité renouvelable. Empreinte numérique mesurée et publiée.</li>
       </ul>
     </div>
 
@@ -180,10 +180,10 @@
   <!-- Closing -->
   <div class="closing">
     <p>Par cette charte, les CFF affirment que la qualité d'une technologie se mesure à sa capacité à <b>n'oublier personne</b>. Ces engagements guident la conception, le déploiement et la commercialisation de tous les services numériques de l'entreprise, et sont régulièrement réexaminés afin d'accompagner l'évolution des usages et des technologies.</p>
-    <div class="footer-meta">
-      Charte réalisée à titre d'exercice dans le cours Éthique et durabilité (HEIG-VD), 2026. Document académique fictif, sans caractère officiel ni lien avec les CFF.<br>
-      Sofian Ethenoz · Arthur Menétrey · Mirco Profico
-    </div>
+  </div>
+  <div class="footer-meta">
+    Charte réalisée à titre d'exercice dans le cours Éthique et durabilité (HEIG-VD), 2026. Document académique fictif, sans caractère officiel ni lien avec les CFF.<br>
+    Sofian Ethenoz · Arthur Menétrey · Mirco Profico
   </div>
 
 </section>
