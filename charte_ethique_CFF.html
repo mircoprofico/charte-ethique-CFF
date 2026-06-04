@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Charte éthique et de durabilité numérique - CFF</title>
+<style>
+  @page { size: A4; margin: 16mm 16mm 14mm 16mm; }
+  @page :first { margin: 0; }
+  * { box-sizing: border-box; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body {
+    font-family: "Segoe UI", "Liberation Sans", "Noto Sans", Arial, sans-serif;
+    font-size: 10.6pt; line-height: 1.45; color: #1f1f1f; margin: 0;
+  }
+  h1, h2, h3 { font-weight: 700; }
+
+  /* ---------- Cover ---------- */
+  .cover {
+    height: 297mm; width: 210mm; position: relative; page-break-after: always;
+    color: #fff; overflow: hidden; background: #EB0000;
+  }
+  .cover .swoosh { position: absolute; right: -60mm; top: -40mm; width: 200mm; height: 200mm;
+    background: rgba(255,255,255,.08); border-radius: 50%; }
+  .cover .swoosh2 { position: absolute; left: -70mm; bottom: -90mm; width: 220mm; height: 220mm;
+    background: rgba(0,0,0,.07); border-radius: 50%; }
+  .cover .content { position: absolute; left: 24mm; right: 24mm; top: 86mm; }
+  .cover .kicker { letter-spacing: .24em; text-transform: uppercase; font-size: 10.5pt; opacity: .92; }
+  .cover h1 { font-size: 33pt; line-height: 1.1; margin: 16px 0 10px; }
+  .cover .rule { width: 70px; height: 4px; background: #fff; margin: 24px 0; border: 0; }
+  .cover .subtitle { font-size: 14.5pt; font-weight: 400; opacity: .96; line-height: 1.4; }
+  .cover .meta { position: absolute; left: 24mm; right: 24mm; bottom: 22mm; font-size: 10.8pt; line-height: 1.8; }
+  .cover .meta strong { font-weight: 700; }
+  .cover .logo { position: absolute; right: 24mm; top: 22mm; font-size: 15pt; font-weight: 700; letter-spacing: .04em; }
+
+  /* ---------- Body ---------- */
+  h2 { font-size: 15pt; color: #EB0000; margin: 18px 0 3px; page-break-after: avoid; }
+  h2.break { page-break-before: always; margin-top: 4px; }
+  .barrule { height: 3px; background: #EB0000; width: 44px; margin: 2px 0 12px; border: 0; }
+
+  .preamble { padding: 0 0 2px; margin: 0 0 6px; columns: 2; column-gap: 24px; }
+  .preamble p { margin: 0 0 9px; text-align: justify; break-inside: avoid; }
+
+  /* values - 3 compact columns */
+  .values { list-style: none; margin: 6px 0 0; padding: 0; columns: 3; column-gap: 20px; }
+  .values li { margin: 0 0 11px; padding-left: 15px; position: relative; break-inside: avoid; font-size: 10pt; line-height: 1.4; }
+  .values li::before { content: ""; position: absolute; left: 0; top: 6px; width: 6px; height: 6px; background: #EB0000; border-radius: 50%; }
+  .values b { color: #111; display: block; }
+
+  /* engagements - 2-column card grid */
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 7px 15px; margin-top: 3px; }
+  .card { break-inside: avoid; page-break-inside: avoid; border: 1px solid #f0dcdc; border-left: 3px solid #EB0000;
+    border-radius: 5px; padding: 7px 13px 5px; background: #fdfafa; }
+  .card-head { display: flex; align-items: center; gap: 8px; margin-bottom: 4px; }
+  .num { background: #EB0000; color: #fff; width: 19px; height: 19px; border-radius: 50%;
+    font-size: 9.6pt; font-weight: 700; text-align: center; line-height: 19px; flex: 0 0 auto; }
+  .card h3 { margin: 0; font-size: 10.4pt; color: #111; line-height: 1.2; }
+  .card ul { list-style: none; margin: 0; padding: 0; }
+  .card li { font-size: 9.3pt; line-height: 1.36; margin: 3px 0; }
+  .k { color: #EB0000; font-weight: 700; }
+
+  .closing { margin-top: 9px; border-top: 2px solid #EB0000; padding-top: 8px; }
+  .closing p { margin: 0; text-align: justify; }
+  .footer-meta { margin-top: 9px; font-size: 9.2pt; color: #888; border-top: 1px solid #e2e2e2; padding-top: 6px; }
+  section { page-break-inside: auto; }
+</style>
+</head>
+<body>
+
+<!-- ===================== COVER ===================== -->
+<div class="cover">
+  <div class="swoosh"></div>
+  <div class="swoosh2"></div>
+  <div class="logo">CFF · SBB · FFS</div>
+  <div class="content">
+    <div class="kicker">Notre engagement</div>
+    <h1>Charte éthique<br>et de durabilité<br>numérique</h1>
+    <hr class="rule">
+    <div class="subtitle">Pour des outils numériques au service de toutes et tous :<br>développement et démocratisation responsables</div>
+  </div>
+  <div class="meta">
+    <div><strong>Champ d'application :</strong> Mobile CFF · EasyRide · SwissPass · automates et vente en ligne · services assistés par IA</div>
+    <div><strong>Édité par :</strong> Chemins de fer fédéraux suisses CFF · www.cff.ch</div>
+    <div><strong>Version 1.0</strong> - 2026</div>
+  </div>
+</div>
+
+<!-- ===================== PAGE ===================== -->
+<section>
+
+  <!-- Préambule -->
+  <h2>Pourquoi cette charte&nbsp;?</h2>
+  <hr class="barrule">
+  <div class="preamble">
+    <p>Les <b>Chemins de fer fédéraux suisses (CFF)</b> assurent une mission de <b>service public</b> : garantir la mobilité de l'ensemble de la population, sur tout le territoire et sans exclusion. Avec plus de 1,3 million de voyageurs chaque jour, les outils numériques des CFF (application <b>Mobile CFF</b>, billet automatique <b>EasyRide</b>, carte <b>SwissPass</b>, automates, vente en ligne, services assistés par <b>intelligence artificielle</b>) sont devenus des portes d'accès quotidiennes au train.</p>
+    <p>Le numérique facilite la mobilité, mais s'il devient le canal unique ou dominant, il peut <b>exclure</b> celles et ceux qui dépendent le plus du service public. Par cette charte, les CFF énoncent les engagements qui garantissent que la <b>démocratisation</b> de ces outils ne se mesure pas au nombre de téléchargements, mais au fait qu'ils n'oublient personne, respectent la vie privée et restent sobres. Elle s'applique à la conception, au déploiement et à la commercialisation de tous les services numériques des CFF.</p>
+  </div>
+
+  <!-- Valeurs -->
+  <h2>Nos valeurs</h2>
+  <hr class="barrule">
+  <ul class="values">
+    <li><b>Égalité d'accès</b> La mobilité est un droit, jamais un privilège réservé aux personnes connectées.</li>
+    <li><b>Autonomie</b> L'usager garde le choix de son canal d'accès et le contrôle de ses données.</li>
+    <li><b>Inclusion</b> Concevoir d'abord pour les plus vulnérables (design universel, accessibilité).</li>
+    <li><b>Confiance</b> Collecte minimale des données, refus de la surveillance des déplacements.</li>
+    <li><b>Humanité</b> La technologie augmente la personne et le personnel, elle ne les remplace pas.</li>
+    <li><b>Sobriété</b> Ne numériser que ce qui apporte une valeur réelle et durable.</li>
+  </ul>
+
+  <!-- Engagements -->
+  <h2 class="break">Nos engagements</h2>
+  <hr class="barrule">
+
+  <div class="grid">
+
+    <div class="card">
+      <div class="card-head"><span class="num">1</span><h3>Finalité et autonomie des personnes</h3></div>
+      <ul>
+        <li><span class="k">Liberté avant tout.</span> Des technologies qui élargissent la liberté réelle de se déplacer, sans la conditionner à la maîtrise d'un smartphone.</li>
+        <li><span class="k">Pluralité des canaux.</span> Pour chaque service numérique, une alternative non numérique équivalente (guichet, automate, billet papier, assistance humaine), financée durablement.</li>
+        <li><span class="k">Pas de pénalité.</span> Renoncer au numérique ne coûte pas plus cher : aucun avantage tarifaire réservé au seul canal numérique.</li>
+        <li><span class="k">Anonymat préservé.</span> Voyager de manière anonyme reste possible, partout et à tout moment.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="card-head"><span class="num">2</span><h3>Accessibilité et non-discrimination</h3></div>
+      <ul>
+        <li><span class="k">Design universel.</span> Conception selon les normes d'accessibilité (WCAG) : lecteurs d'écran, contrastes, tailles de police, mode sombre, langage simple, multilinguisme.</li>
+        <li><span class="k">Critère non négociable.</span> Accessibilité évaluée avec les personnes concernées, et non corrigée après coup (esprit de la LHand).</li>
+        <li><span class="k">Aucune mise à l'écart.</span> Prévenir exclusion, dépendance et stigmatisation : pas de lenteur humiliante ni de traitement de seconde classe.</li>
+        <li><span class="k">Présence humaine.</span> Un personnel d'accompagnement formé et suffisant en gare et à bord.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="card-head"><span class="num">3</span><h3>Protection des données et vie privée</h3></div>
+      <ul>
+        <li><span class="k">Minimisation.</span> Par défaut, ne collecter que les données strictement nécessaires, pour une finalité limitée.</li>
+        <li><span class="k">Pas de revente.</span> Aucune transmission des données de déplacement à des tiers à des fins publicitaires ; hébergement conforme au droit suisse.</li>
+        <li><span class="k">Pas de traçage.</span> Refus de tout historique exhaustif et permanent des déplacements.</li>
+        <li><span class="k">Clarté et sécurité.</span> Transparence sur les données collectées, sécurité des titres et des paiements.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="card-head"><span class="num">4</span><h3>Une IA digne de confiance</h3></div>
+      <ul>
+        <li><span class="k">Transparence.</span> L'usager sait quand une décision est automatisée et comment un prix est calculé.</li>
+        <li><span class="k">Contrôle humain.</span> Aucune décision lourde (amende, blocage, refus) prise par un algorithme seul, sans recours possible.</li>
+        <li><span class="k">Sans biais.</span> Audit régulier des systèmes pour qu'ils ne désavantagent aucun profil (âge, revenus, lieu, handicap).</li>
+        <li><span class="k">Le jugement reste humain.</span> L'IA assiste l'appréciation des situations, sans sanctionner l'erreur de bonne foi ni remplacer la décision.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="card-head"><span class="num">5</span><h3>Hybridation au service de l'humain</h3></div>
+      <ul>
+        <li><span class="k">Augmenter, pas remplacer.</span> Une hybridation qui renforce les capacités (planifier, anticiper un retard) et redonne de l'autonomie, notamment en situation de handicap.</li>
+        <li><span class="k">Recentrage humain.</span> Le personnel, libéré des tâches répétitives, se consacre au conseil et à la relation : une présence, pas un coût à éliminer.</li>
+        <li><span class="k">Limite du corps.</span> Refus de toute biométrie obligatoire ou reconnaissance faciale imposée, et de toute infrastructure rendant l'identification possible « par défaut ».</li>
+        <li><span class="k">Limite sociale.</span> Le numérique n'est jamais une condition d'existence sociale, ni le voyageur une source de données permanente.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="card-head"><span class="num">6</span><h3>Sobriété et durabilité numériques</h3></div>
+      <ul>
+        <li><span class="k">Sobriété d'usage.</span> Ne numériser que ce qui apporte une valeur réelle, sans fonctionnalités superflues ni captation de l'attention.</li>
+        <li><span class="k">Logiciel léger.</span> Des applications compatibles avec les smartphones anciens, pour ne pas accélérer le renouvellement du matériel (principal impact du numérique).</li>
+        <li><span class="k">Matériel durable.</span> Supports physiques de longue durée (SwissPass) et lutte contre l'obsolescence.</li>
+        <li><span class="k">Énergie et mesure.</span> Infrastructure alimentée en électricité renouvelable ; empreinte numérique mesurée et publiée.</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- Closing -->
+  <div class="closing">
+    <p>Par cette charte, les CFF affirment que la qualité d'une technologie se mesure à sa capacité à <b>n'oublier personne</b>. Ces engagements guident la conception, le déploiement et la commercialisation de tous les services numériques de l'entreprise, et sont régulièrement réexaminés afin d'accompagner l'évolution des usages et des technologies.</p>
+    <div class="footer-meta">
+      Chemins de fer fédéraux suisses CFF · Charte éthique et de durabilité numérique · Version 1.0 - 2026 · www.cff.ch
+    </div>
+  </div>
+
+</section>
+</body>
+</html>
